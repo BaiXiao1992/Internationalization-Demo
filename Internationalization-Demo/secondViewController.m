@@ -48,7 +48,7 @@
     _imageView1.image = [UIImage imageNamed:imageName];
     [self.view addSubview:_imageView1];
     
-
+    NSLog(@"123123");
 }
 -(void)changeLanguage{
     
