@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Internationalization-Demo
+
+  Created by 白晓 on 17/1/4.
+  Copyright © 2017年 白晓. All rights reserved.
+*/
+//静态文本国际化
+//另外中文strings【Localizable.strings(Simplified)】可以不要的(可以理解为中文为APP的默认语言)，因为key就是value，当找不到相应的语言strings或value时会直接返回key。
+"key" = "hello";
+//图片国际化
+"imageName" = "cat";
+
+
