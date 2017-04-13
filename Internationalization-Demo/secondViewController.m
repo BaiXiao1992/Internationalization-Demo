@@ -47,6 +47,7 @@
     _imageView1 = [[UIImageView alloc] initWithFrame:CGRectMake(50, 400, 100, 100)];
     _imageView1.image = [UIImage imageNamed:imageName];
     [self.view addSubview:_imageView1];
+    123123
     
 
 }
