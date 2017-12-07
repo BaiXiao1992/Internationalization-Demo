@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A903D7F81FD925EA0061DDCE /* sdltyxzs.plist in Resources */ = {isa = PBXBuildFile; fileRef = A903D7F71FD925E90061DDCE /* sdltyxzs.plist */; };
+		A903D7FB1FD926BE0061DDCE /* wozhangui.plist in Resources */ = {isa = PBXBuildFile; fileRef = A903D7FA1FD926BE0061DDCE /* wozhangui.plist */; };
+		A903D8061FD934630061DDCE /* cheshi2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A903D8051FD934630061DDCE /* cheshi2.plist */; };
 		A91670F51E1C97CD0090A707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91670F41E1C97CD0090A707 /* main.m */; };
 		A91670F81E1C97CD0090A707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A91670F71E1C97CD0090A707 /* AppDelegate.m */; };
 		A91670FB1E1C97CD0090A707 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91670FA1E1C97CD0090A707 /* ViewController.m */; };
@@ -16,12 +19,14 @@
 		A916710E1E1C97CD0090A707 /* Internationalization_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A916710D1E1C97CD0090A707 /* Internationalization_DemoTests.m */; };
 		A91671191E1C97CD0090A707 /* Internationalization_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91671181E1C97CD0090A707 /* Internationalization_DemoUITests.m */; };
 		A91671361E1C9E730090A707 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A91671381E1C9E730090A707 /* Localizable.strings */; };
-		A916713C1E1CD97D0090A707 /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = A916713E1E1CD97D0090A707 /* cake.png */; };
-		A91671441E1CE08E0090A707 /* cake1.png in Resources */ = {isa = PBXBuildFile; fileRef = A91671421E1CE08E0090A707 /* cake1.png */; };
+		A91671441E1CE08E0090A707 /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = A91671421E1CE08E0090A707 /* cake.png */; };
 		A91671461E1CE1AC0090A707 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = A91671451E1CE1AC0090A707 /* cat.png */; };
+		A92FE64B1FCFEFF200FBE2B4 /* ceshi1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A92FE64A1FCFEFF100FBE2B4 /* ceshi1.plist */; };
 		A97EC6D51E9CB9B00009DB80 /* InternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */; };
 		A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A97EC6DE1E9CC76C0009DB80 /* InfoPlist.strings */; };
 		A97EC6E21E9CCFD40009DB80 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6E11E9CCFD40009DB80 /* secondViewController.m */; };
+		A98E02B61FCD3DF9003DEA6B /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = A98E02B51FCD3DF8003DEA6B /* 1.html */; };
+		A9BB26CE1FBEEAD600E5BC5F /* manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9BB26CD1FBEEAD600E5BC5F /* manifest.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A903D7F71FD925E90061DDCE /* sdltyxzs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sdltyxzs.plist; sourceTree = "<group>"; };
+		A903D7F91FD926480061DDCE /* gui.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = gui.ipa; sourceTree = "<group>"; };
+		A903D7FA1FD926BE0061DDCE /* wozhangui.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wozhangui.plist; sourceTree = "<group>"; };
+		A903D8041FD934560061DDCE /* ceshi2.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceshi2.ipa; sourceTree = "<group>"; };
+		A903D8051FD934630061DDCE /* cheshi2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheshi2.plist; sourceTree = "<group>"; };
 		A91670F01E1C97CD0090A707 /* Internationalization-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internationalization-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91670F41E1C97CD0090A707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A91670F61E1C97CD0090A707 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,16 +72,19 @@
 		A91671271E1C981E0090A707 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		A91671371E1C9E730090A707 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A91671391E1C9E770090A707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A916713D1E1CD97D0090A707 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/cake.png; sourceTree = "<group>"; };
-		A916713F1E1CD9830090A707 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/cake.png"; sourceTree = "<group>"; };
-		A91671421E1CE08E0090A707 /* cake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake1.png; sourceTree = "<group>"; };
+		A91671421E1CE08E0090A707 /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
 		A91671451E1CE1AC0090A707 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		A92FE64A1FCFEFF100FBE2B4 /* ceshi1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ceshi1.plist; sourceTree = "<group>"; };
 		A97EC6D31E9CB9B00009DB80 /* InternationalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalControl.h; sourceTree = "<group>"; };
 		A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalControl.m; sourceTree = "<group>"; };
 		A97EC6DD1E9CC76C0009DB80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A97EC6DF1E9CC76E0009DB80 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		A97EC6E01E9CCFD40009DB80 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
 		A97EC6E11E9CCFD40009DB80 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		A98E02B51FCD3DF8003DEA6B /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
+		A98E02B71FCD55D5003DEA6B /* ACFrameWorkBaseApplication.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ACFrameWorkBaseApplication.ipa; sourceTree = "<group>"; };
+		A9BB26CD1FBEEAD600E5BC5F /* manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = manifest.plist; sourceTree = "<group>"; };
+		A9F600A31FD0377D006BADAF /* ceshi1.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceshi1.ipa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +115,16 @@
 		A91670E71E1C97CD0090A707 = {
 			isa = PBXGroup;
 			children = (
+				A903D8051FD934630061DDCE /* cheshi2.plist */,
+				A903D8041FD934560061DDCE /* ceshi2.ipa */,
+				A903D7FA1FD926BE0061DDCE /* wozhangui.plist */,
+				A903D7F91FD926480061DDCE /* gui.ipa */,
+				A903D7F71FD925E90061DDCE /* sdltyxzs.plist */,
+				A9F600A31FD0377D006BADAF /* ceshi1.ipa */,
+				A92FE64A1FCFEFF100FBE2B4 /* ceshi1.plist */,
+				A98E02B71FCD55D5003DEA6B /* ACFrameWorkBaseApplication.ipa */,
+				A9BB26CD1FBEEAD600E5BC5F /* manifest.plist */,
+				A98E02B51FCD3DF8003DEA6B /* 1.html */,
 				A91670F21E1C97CD0090A707 /* Internationalization-Demo */,
 				A916710C1E1C97CD0090A707 /* Internationalization-DemoTests */,
 				A91671171E1C97CD0090A707 /* Internationalization-DemoUITests */,
@@ -172,8 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				A91671451E1CE1AC0090A707 /* cat.png */,
-				A91671421E1CE08E0090A707 /* cake1.png */,
-				A916713E1E1CD97D0090A707 /* cake.png */,
+				A91671421E1CE08E0090A707 /* cake.png */,
 			);
 			name = png;
 			sourceTree = "<group>";
@@ -287,13 +309,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91671361E1C9E730090A707 /* Localizable.strings in Resources */,
+				A98E02B61FCD3DF9003DEA6B /* 1.html in Resources */,
 				A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */,
-				A91671441E1CE08E0090A707 /* cake1.png in Resources */,
+				A91671441E1CE08E0090A707 /* cake.png in Resources */,
 				A91671461E1CE1AC0090A707 /* cat.png in Resources */,
+				A903D7FB1FD926BE0061DDCE /* wozhangui.plist in Resources */,
 				A91671031E1C97CD0090A707 /* LaunchScreen.storyboard in Resources */,
 				A91671001E1C97CD0090A707 /* Assets.xcassets in Resources */,
-				A916713C1E1CD97D0090A707 /* cake.png in Resources */,
+				A92FE64B1FCFEFF200FBE2B4 /* ceshi1.plist in Resources */,
+				A903D8061FD934630061DDCE /* cheshi2.plist in Resources */,
+				A903D7F81FD925EA0061DDCE /* sdltyxzs.plist in Resources */,
 				A91670FE1E1C97CD0090A707 /* Main.storyboard in Resources */,
+				A9BB26CE1FBEEAD600E5BC5F /* manifest.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,15 +410,6 @@
 				A91671391E1C9E770090A707 /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		A916713E1E1CD97D0090A707 /* cake.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A916713D1E1CD97D0090A707 /* en */,
-				A916713F1E1CD9830090A707 /* zh-Hans */,
-			);
-			name = cake.png;
 			sourceTree = "<group>";
 		};
 		A97EC6DE1E9CC76C0009DB80 /* InfoPlist.strings */ = {
