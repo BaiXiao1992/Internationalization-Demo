@@ -17,6 +17,8 @@ static NSBundle *bundle = nil;
 }
 +(void)initUserLanguage{
     
+    
+    
     NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
     
     NSString *string = [def valueForKey:@"userLanguage"];
@@ -38,6 +40,7 @@ static NSBundle *bundle = nil;
         [def setValue:currentLanguage forKey:@"userLanguage"];
         
         [def synchronize];//持久化，不加的话不会保存
+        
     }
     
     //获取文件路径
@@ -47,11 +50,19 @@ static NSBundle *bundle = nil;
 }
 +(NSString *)userLanguage{
     
+    
+//    NSUserDefaults *def1 = [NSUserDefaults standardUserDefaults];
+//    [def1 setValue:@"0" forKey:@"sysLanguage"];
+//    [def1 synchronize];
+    
+    
     NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
     
     NSString *language = [def valueForKey:@"userLanguage"];
     
     return language;
+    
+    
 }
 +(void)setUserlanguage:(NSString *)language{
     

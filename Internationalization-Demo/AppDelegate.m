@@ -16,8 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    NSLog(@"%@",);
-    
+
+//    NSUserDefaults *def1 = [NSUserDefaults standardUserDefaults];
+//    [def1 setValue:@"1" forKey:@"sysLanguage"];
+//    [def1 synchronize];
 //    nsLog( @"%@" , currentLanguage);
     // Override point for customization after application launch.
     return YES;

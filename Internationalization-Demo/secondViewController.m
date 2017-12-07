@@ -22,12 +22,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeLanguage) name:@"changeLanguage" object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeLanguage) name:@"changeLanguage" object:nil];
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     //注册通知，用于接收改变语言的通知
     
-    [InternationalControl initUserLanguage];//初始化应用语言
+    [InternationalControl userLanguage];//初始化应用语言
     NSBundle *bundle = [InternationalControl bundle];
     
     NSString *inviteMsg = [bundle localizedStringForKey:@"key" value:nil table:@"Localizable"];
@@ -48,13 +48,25 @@
     _imageView1.image = [UIImage imageNamed:imageName];
     [self.view addSubview:_imageView1];
     
+    UIButton *button2 = [UIButton buttonWithType:UIButtonTypeSystem];
+    button2.frame = CGRectMake(250, 400, 50, 50);
+    [button2 setTitle:@"上一页" forState:UIControlStateNormal];
+    [button2 addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button2];
+    NSLog(@"!@");
+}
 
+- (void)buttonClick{
+//    secondViewController *second = [[secondViewController alloc] init];
+//    [self presentViewController:second animated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
--(void)changeLanguage{
-    
-    _label.text = [[InternationalControl bundle] localizedStringForKey:@"key" value:nil table:@"Localizable"];
-    _imageView1.image = [UIImage imageNamed:[[InternationalControl bundle] localizedStringForKey:@"imageName" value:nil table:@"Localizable"]];
-}
+
+//-(void)changeLanguage{
+//    
+//    _label.text = [[InternationalControl bundle] localizedStringForKey:@"key" value:nil table:@"Localizable"];
+//    _imageView1.image = [UIImage imageNamed:[[InternationalControl bundle] localizedStringForKey:@"imageName" value:nil table:@"Localizable"]];
+//}
 
 
 - (void)didReceiveMemoryWarning {

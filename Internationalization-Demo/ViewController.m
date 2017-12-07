@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //注册通知，用于接收改变语言的通知
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeLanguage) name:@"changeLanguage" object:nil];
+//    //注册通知，用于接收改变语言的通知
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeLanguage) name:@"changeLanguage" object:nil];
     
     [InternationalControl initUserLanguage];//初始化应用语言
     NSBundle *bundle = [InternationalControl bundle];
@@ -32,22 +32,17 @@
     NSString *imageName = [bundle localizedStringForKey:@"imageName" value:nil table:@"Localizable"];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(200, 50, 50, 50);
+    button.frame = CGRectMake(200, 50, 100, 50);
     button.backgroundColor = [UIColor blueColor];
-    [button setTitle:@"123" forState:UIControlStateNormal];
+    [button setTitle:@"切换语言" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
-//    NSArray *languages = [NSLocale preferredLanguages];
-//    NSString *currentLanguage = [languages objectAtIndex:0];
-//    NSLog(@"currentLanguage = %@" , currentLanguage);
-    // Do any additional setup after loading the view, typically from a nib.
     
-    
-    _label = [[UILabel alloc] initWithFrame:CGRectMake(100, 50, 50, 50)];
+    _label = [[UILabel alloc] initWithFrame:CGRectMake(100, 50, 100, 50)];
     _label.backgroundColor = [UIColor magentaColor];
     _label.text = inviteMsg;
-//    label.text = NSLocalizedStringFromTable(@"key", label.text, @"key");
+//    _label.text = NSLocalizedStringFromTable(@"key", _label.text, @"key");
     [self.view addSubview:_label];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50, 150, 200, 200)];
@@ -55,7 +50,7 @@
     [self.view addSubview:imageView];
     
     _imageView1 = [[UIImageView alloc] initWithFrame:CGRectMake(50, 400, 100, 100)];
-    _imageView1.image = [UIImage imageNamed:imageName];
+//    _imageView1.image = [UIImage imageNamed:imageName];
     [self.view addSubview:_imageView1];
     
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -65,6 +60,20 @@
     [self.view addSubview:button2];
     NSLog(@"!@");
     
+    
+//    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+//    NSString *sysLanguage = [def valueForKey:@"sysLanguage"];
+//    
+//    if ([sysLanguage isEqualToString:@"1"]) {
+//        _label.text = NSLocalizedStringFromTable(@"key", _label.text, @"key");
+//        _imageView1.image = [UIImage imageNamed:NSLocalizedString(@"imageName", "imageName")];
+//
+//    }else{
+        _label.text = inviteMsg;
+        _imageView1.image = [UIImage imageNamed:imageName];
+//    }
+
+    
 }
 
 - (void)buttonClick{
@@ -73,6 +82,10 @@
 }
 
 - (void)buttonClick:(id)sender{
+    
+    //注册通知，用于接收改变语言的通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeLanguage) name:@"changeLanguage" object:nil];
+    
     NSString *lan = [InternationalControl userLanguage];
     
     if([lan isEqualToString:@"en"]){//判断当前的语言，进行改变
@@ -86,7 +99,8 @@
 
 -(void)changeLanguage{
     
-    _label.text = [[InternationalControl bundle] localizedStringForKey:@"key" value:nil table:@"Localizable"];
+    _label.text = [[InternationalControl bundle] localizedStringForKey:@"chage" value:nil table:@"Localizable"];
+    
     _imageView1.image = [UIImage imageNamed:[[InternationalControl bundle] localizedStringForKey:@"imageName" value:nil table:@"Localizable"]];
 }
 
