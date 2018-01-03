@@ -22,7 +22,7 @@
 		A91671441E1CE08E0090A707 /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = A91671421E1CE08E0090A707 /* cake.png */; };
 		A91671461E1CE1AC0090A707 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = A91671451E1CE1AC0090A707 /* cat.png */; };
 		A92FE64B1FCFEFF200FBE2B4 /* ceshi1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A92FE64A1FCFEFF100FBE2B4 /* ceshi1.plist */; };
-		A963616E1FFCDAE1006CEE67 /* cheshi3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A963616D1FFCDAE1006CEE67 /* cheshi3.plist */; };
+		A96361711FFCDDFB006CEE67 /* cheshiSDK.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96361701FFCDDFB006CEE67 /* cheshiSDK.plist */; };
 		A97EC6D51E9CB9B00009DB80 /* InternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */; };
 		A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A97EC6DE1E9CC76C0009DB80 /* InfoPlist.strings */; };
 		A97EC6E21E9CCFD40009DB80 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6E11E9CCFD40009DB80 /* secondViewController.m */; };
@@ -76,8 +76,8 @@
 		A91671421E1CE08E0090A707 /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
 		A91671451E1CE1AC0090A707 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		A92FE64A1FCFEFF100FBE2B4 /* ceshi1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ceshi1.plist; sourceTree = "<group>"; };
-		A963616C1FFCDA7A006CEE67 /* cheshi3.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheshi3.ipa; sourceTree = "<group>"; };
-		A963616D1FFCDAE1006CEE67 /* cheshi3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheshi3.plist; sourceTree = "<group>"; };
+		A963616F1FFCDDD8006CEE67 /* cheshiSDK.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheshiSDK.ipa; sourceTree = "<group>"; };
+		A96361701FFCDDFB006CEE67 /* cheshiSDK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheshiSDK.plist; sourceTree = "<group>"; };
 		A97EC6D31E9CB9B00009DB80 /* InternationalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalControl.h; sourceTree = "<group>"; };
 		A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalControl.m; sourceTree = "<group>"; };
 		A97EC6DD1E9CC76C0009DB80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 		A91670E71E1C97CD0090A707 = {
 			isa = PBXGroup;
 			children = (
-				A963616C1FFCDA7A006CEE67 /* cheshi3.ipa */,
-				A963616D1FFCDAE1006CEE67 /* cheshi3.plist */,
+				A96361701FFCDDFB006CEE67 /* cheshiSDK.plist */,
+				A963616F1FFCDDD8006CEE67 /* cheshiSDK.ipa */,
 				A903D8051FD934630061DDCE /* cheshi2.plist */,
 				A903D8041FD934560061DDCE /* ceshi2.ipa */,
 				A903D7FA1FD926BE0061DDCE /* wozhangui.plist */,
@@ -315,10 +315,10 @@
 			files = (
 				A91671361E1C9E730090A707 /* Localizable.strings in Resources */,
 				A98E02B61FCD3DF9003DEA6B /* 1.html in Resources */,
-				A963616E1FFCDAE1006CEE67 /* cheshi3.plist in Resources */,
 				A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */,
 				A91671441E1CE08E0090A707 /* cake.png in Resources */,
 				A91671461E1CE1AC0090A707 /* cat.png in Resources */,
+				A96361711FFCDDFB006CEE67 /* cheshiSDK.plist in Resources */,
 				A903D7FB1FD926BE0061DDCE /* wozhangui.plist in Resources */,
 				A91671031E1C97CD0090A707 /* LaunchScreen.storyboard in Resources */,
 				A91671001E1C97CD0090A707 /* Assets.xcassets in Resources */,
