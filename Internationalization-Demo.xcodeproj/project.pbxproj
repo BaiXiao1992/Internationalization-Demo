@@ -122,7 +122,8 @@
 		A91670E71E1C97CD0090A707 = {
 			isa = PBXGroup;
 			children = (
-				A96361721FFCE5AA006CEE67 /* cheshi */,
+				A96361731FFCE5AA006CEE67 /* cheshi.ipa */,
+				A96361741FFCE5AA006CEE67 /* cheshi.plist */,
 				A96361701FFCDDFB006CEE67 /* cheshiSDK.plist */,
 				A963616F1FFCDDD8006CEE67 /* cheshiSDK.ipa */,
 				A903D8051FD934630061DDCE /* cheshi2.plist */,
@@ -208,15 +209,6 @@
 				A91671421E1CE08E0090A707 /* cake.png */,
 			);
 			name = png;
-			sourceTree = "<group>";
-		};
-		A96361721FFCE5AA006CEE67 /* cheshi */ = {
-			isa = PBXGroup;
-			children = (
-				A96361731FFCE5AA006CEE67 /* cheshi.ipa */,
-				A96361741FFCE5AA006CEE67 /* cheshi.plist */,
-			);
-			path = cheshi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
