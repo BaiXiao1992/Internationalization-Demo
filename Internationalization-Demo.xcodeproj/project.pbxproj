@@ -30,7 +30,6 @@
 		A97EC6D51E9CB9B00009DB80 /* InternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */; };
 		A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A97EC6DE1E9CC76C0009DB80 /* InfoPlist.strings */; };
 		A97EC6E21E9CCFD40009DB80 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6E11E9CCFD40009DB80 /* secondViewController.m */; };
-		A98E02B61FCD3DF9003DEA6B /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = A98E02B51FCD3DF8003DEA6B /* 1.html */; };
 		A9BB26CE1FBEEAD600E5BC5F /* manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9BB26CD1FBEEAD600E5BC5F /* manifest.plist */; };
 /* End PBXBuildFile section */
 
@@ -86,13 +85,13 @@
 		A96361741FFCE5AA006CEE67 /* cheshi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheshi.plist; sourceTree = "<group>"; };
 		A96614AA20049CF4003BFEE8 /* beijing.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = beijing.ipa; sourceTree = "<group>"; };
 		A96614AB20049CF4003BFEE8 /* beijing.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beijing.plist; sourceTree = "<group>"; };
+		A96614AE20049E3F003BFEE8 /* yingxiao.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; name = yingxiao.ipa; path = "../../../Downloads/北京联通/yingxiao.ipa"; sourceTree = "<group>"; };
 		A97EC6D31E9CB9B00009DB80 /* InternationalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalControl.h; sourceTree = "<group>"; };
 		A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalControl.m; sourceTree = "<group>"; };
 		A97EC6DD1E9CC76C0009DB80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A97EC6DF1E9CC76E0009DB80 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		A97EC6E01E9CCFD40009DB80 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
 		A97EC6E11E9CCFD40009DB80 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
-		A98E02B51FCD3DF8003DEA6B /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 		A98E02B71FCD55D5003DEA6B /* ACFrameWorkBaseApplication.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ACFrameWorkBaseApplication.ipa; sourceTree = "<group>"; };
 		A9BB26CD1FBEEAD600E5BC5F /* manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = manifest.plist; sourceTree = "<group>"; };
 		A9F600A31FD0377D006BADAF /* ceshi1.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceshi1.ipa; sourceTree = "<group>"; };
@@ -140,8 +139,8 @@
 				A9F600A31FD0377D006BADAF /* ceshi1.ipa */,
 				A92FE64A1FCFEFF100FBE2B4 /* ceshi1.plist */,
 				A98E02B71FCD55D5003DEA6B /* ACFrameWorkBaseApplication.ipa */,
+				A96614AE20049E3F003BFEE8 /* yingxiao.ipa */,
 				A9BB26CD1FBEEAD600E5BC5F /* manifest.plist */,
-				A98E02B51FCD3DF8003DEA6B /* 1.html */,
 				A91670F21E1C97CD0090A707 /* Internationalization-Demo */,
 				A916710C1E1C97CD0090A707 /* Internationalization-DemoTests */,
 				A91671171E1C97CD0090A707 /* Internationalization-DemoUITests */,
@@ -326,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91671361E1C9E730090A707 /* Localizable.strings in Resources */,
-				A98E02B61FCD3DF9003DEA6B /* 1.html in Resources */,
 				A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */,
 				A91671441E1CE08E0090A707 /* cake.png in Resources */,
 				A91671461E1CE1AC0090A707 /* cat.png in Resources */,
