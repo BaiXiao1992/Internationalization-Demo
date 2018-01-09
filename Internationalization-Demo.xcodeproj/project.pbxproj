@@ -25,6 +25,8 @@
 		A96361711FFCDDFB006CEE67 /* cheshiSDK.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96361701FFCDDFB006CEE67 /* cheshiSDK.plist */; };
 		A96361751FFCE5AB006CEE67 /* cheshi.ipa in Resources */ = {isa = PBXBuildFile; fileRef = A96361731FFCE5AA006CEE67 /* cheshi.ipa */; };
 		A96361761FFCE5AB006CEE67 /* cheshi.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96361741FFCE5AA006CEE67 /* cheshi.plist */; };
+		A96614B12004A18C003BFEE8 /* beijing.ipa in Resources */ = {isa = PBXBuildFile; fileRef = A96614AF2004A18C003BFEE8 /* beijing.ipa */; };
+		A96614B22004A18C003BFEE8 /* beijing.plist in Resources */ = {isa = PBXBuildFile; fileRef = A96614B02004A18C003BFEE8 /* beijing.plist */; };
 		A97EC6D51E9CB9B00009DB80 /* InternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */; };
 		A97EC6DC1E9CC76C0009DB80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A97EC6DE1E9CC76C0009DB80 /* InfoPlist.strings */; };
 		A97EC6E21E9CCFD40009DB80 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97EC6E11E9CCFD40009DB80 /* secondViewController.m */; };
@@ -82,6 +84,8 @@
 		A96361731FFCE5AA006CEE67 /* cheshi.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheshi.ipa; sourceTree = "<group>"; };
 		A96361741FFCE5AA006CEE67 /* cheshi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cheshi.plist; sourceTree = "<group>"; };
 		A96614AE20049E3F003BFEE8 /* yingxiao.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; name = yingxiao.ipa; path = "../../../Downloads/北京联通/yingxiao.ipa"; sourceTree = "<group>"; };
+		A96614AF2004A18C003BFEE8 /* beijing.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = beijing.ipa; sourceTree = "<group>"; };
+		A96614B02004A18C003BFEE8 /* beijing.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beijing.plist; sourceTree = "<group>"; };
 		A97EC6D31E9CB9B00009DB80 /* InternationalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalControl.h; sourceTree = "<group>"; };
 		A97EC6D41E9CB9B00009DB80 /* InternationalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalControl.m; sourceTree = "<group>"; };
 		A97EC6DD1E9CC76C0009DB80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 		A91670E71E1C97CD0090A707 = {
 			isa = PBXGroup;
 			children = (
+				A96614AF2004A18C003BFEE8 /* beijing.ipa */,
+				A96614B02004A18C003BFEE8 /* beijing.plist */,
 				A96361731FFCE5AA006CEE67 /* cheshi.ipa */,
 				A96361741FFCE5AA006CEE67 /* cheshi.plist */,
 				A96361701FFCDDFB006CEE67 /* cheshiSDK.plist */,
@@ -326,9 +332,11 @@
 				A903D7FB1FD926BE0061DDCE /* wozhangui.plist in Resources */,
 				A91671031E1C97CD0090A707 /* LaunchScreen.storyboard in Resources */,
 				A91671001E1C97CD0090A707 /* Assets.xcassets in Resources */,
+				A96614B22004A18C003BFEE8 /* beijing.plist in Resources */,
 				A96361751FFCE5AB006CEE67 /* cheshi.ipa in Resources */,
 				A96361761FFCE5AB006CEE67 /* cheshi.plist in Resources */,
 				A92FE64B1FCFEFF200FBE2B4 /* ceshi1.plist in Resources */,
+				A96614B12004A18C003BFEE8 /* beijing.ipa in Resources */,
 				A903D8061FD934630061DDCE /* cheshi2.plist in Resources */,
 				A903D7F81FD925EA0061DDCE /* sdltyxzs.plist in Resources */,
 				A91670FE1E1C97CD0090A707 /* Main.storyboard in Resources */,
